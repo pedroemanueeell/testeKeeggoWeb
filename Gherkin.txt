@@ -1,0 +1,22 @@
+Cenario 1: Validar busca de produto
+    Dado que eu tenha acesso ao site  
+    Quando eu clicar no campo de busca  
+    E preencher o nome de um produto  
+    E clicar no botão de pesquisar (lupa)  
+    Então devo visualizar o produto pesquisado  
+
+
+Cenario 2: Validar carrinho com produto adicionado
+    Dado que eu tenha acesso ao site  
+    Quando eu realizar a busca de um produto  
+    E adicionar o produto ao carrinho  
+    Então devo visualizar o produto adicionado no carrinho  
+
+
+Cenario 3: Validar os produtos no carrinho na tela de pagamento
+    Dado que eu tenha acesso ao site  
+    Quando eu realizar a busca de um produto  
+    E adicionar o produto ao carrinho  
+    E acessar a tela de pagamento  
+    Então devo visualizar os produtos adicionados  
+
